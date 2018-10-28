@@ -1,0 +1,168 @@
+.navbar-brand img{
+    height: 32px;
+}
+
+.nav.navbar-nav{
+    text-transform: uppercase;
+    float: right;
+}
+
+.navbar-default{
+    background-color: #fff;
+    margin-bottom: 0px;
+    border: none;
+}
+
+#header-text.jumbotron{
+    background-color: #fff;
+    border:none;
+    margin: 0px;
+    padding-bottom: 0px;
+}
+
+#header-text.jumbotron img{
+    max-width: 90%;
+    margin: 1px auto;
+}
+
+#overlay.jumbotron{
+    background-color: #006fdc;
+    border: none;
+    color: #fff;
+}
+
+#overlay.jumbotron .form-control{
+    padding: 20px;
+    font-size: 18px;
+}
+
+.btn-transparent{
+    background-color:transparent !important;
+    color: #ccc;
+    padding: 12px;
+}
+
+#content-tab{
+    margin-top:70px;
+}
+#content > h5{
+    padding: 20px;
+    color: #a7adb2;
+}
+
+section#content .row{
+    margin-bottom: 30px;
+}
+
+section#services > p{
+    color: #000;
+}
+
+section#services {
+    margin-bottom: 30px; 
+}
+
+section#services img{
+    margin: 1px auto;
+    height: 75px;
+    width: 75px;
+    max-width: 100%;
+}
+
+section#services h3{
+    padding-bottom: 25px;
+}
+
+section#services .container{
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+section#banner-lower.jumbotron{
+    margin-top: 0px;
+    background-color: #e65b00;
+    color: #fff;
+    padding-top: 25px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-bottom: 20px;
+}
+
+section#payment-section.jumbotron{
+    background-color: #222;
+    color: #ccc;
+    margin-bottom: 0px;
+}
+
+#payable-footer{
+    margin: 1px auto;
+    border: 1px solid #fff;
+    padding: 5px; 
+}
+
+#footer {
+    background-color: #000;
+    margin-bottom: 0px;
+}
+
+
+
+@media(min-width: 899px){
+    #header-text.jumbotron > h1{
+        font-size: 60px; 
+        color: #000;      
+    }
+   
+}
+
+@media(min-width:767px){
+    #header-text.jumbotron > h1{
+        font-size: 56px;
+        color: #000;
+    }
+
+    #overlay.jumbotron > h3{
+        font-size: 22px;
+    }
+}
+
+@media(max-width:500px){
+    #overlay.jumbotron > h3{
+        font-size: 18px;
+    }
+    #content-tab{
+        margin-top:0px;
+    }
+    #content > h5{
+        padding: 10px;
+    }
+
+    section#services h3{
+        font-size: 20px;
+    }
+    section#banner-lower img{
+        width: 75px;
+        height: 75px;
+        margin: 0px auto 5px auto;
+    }
+
+    section#banner-lower p{
+        font-size: 16px !important;
+    }
+
+    section#banner-lower h4{
+        font-size: 13px !important;
+    }
+}
+
+@media(max-width:479px){
+    #overlay.jumbotron > h3{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:319px){
+    #overlay.jumbotron > h3{
+        font-size: 14px;
+    }
+}
